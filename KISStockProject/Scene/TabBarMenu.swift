@@ -25,13 +25,13 @@ enum TabBarMenu: CaseIterable {
         switch self {
         case .home:
             return (
-                UIImage(systemName: ""),
-                UIImage(systemName: "")
+                UIImage(systemName: "house"),
+                UIImage(systemName: "house.fill")
             )
         case .sise:
             return (
-                UIImage(systemName: ""),
-                UIImage(systemName: "")
+                UIImage(systemName: "chart.line.uptrend.xyaxis.circle"),
+                UIImage(systemName: "chart.line.uptrend.xyaxis.circle.fill")
             )
         }
     }
