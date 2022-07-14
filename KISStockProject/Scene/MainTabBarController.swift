@@ -21,6 +21,12 @@ final class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupTabBar()
+    }
+}
+
+private extension MainTabBarController {
+    func setupTabBar() {
         view.backgroundColor = .systemBackground
         viewControllers = viewControllerItems
 
